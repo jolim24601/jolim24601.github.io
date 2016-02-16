@@ -168,6 +168,10 @@ a:focus {
     font-size: 18px;
 }
 
+.intro-text {
+    font-weight: 700;
+}
+
 @media(min-width:768px) {
     .intro {
         height: 100%;
