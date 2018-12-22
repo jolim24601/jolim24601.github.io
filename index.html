@@ -1,273 +1,190 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
+    <title>John Lim</title>
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-  <title>John Lim</title>
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet" />
 
-  <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link
+      href="font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-  <!-- Custom CSS -->
-  <link href="css/grayscale.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-    ga('create', 'UA-74338701-1', 'auto');
-    ga('send', 'pageview');
+      ga("create", "UA-74338701-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </head>
 
-  </script>
-
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-          <i class="fa fa-bars"></i>
-        </button>
-        <a class="navbar-brand page-scroll" href="#page-top">
-          <i class="fa fa-play-circle"></i> <span class="light">Home</span>
-        </a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-        <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-          <li class="hidden">
-            <a href="#page-top"></a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#about">About</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#projects">Projects</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#skills">Skills</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-  </nav>
-
-
-  <!-- Intro Header -->
-  <header class="intro">
-    <div class="intro-body">
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
       <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <img id="avatar" class="img-circle" src="images/terminus.jpg" alt="author photo" />
-            <h1 class="brand-heading">John Lim</h1>
-            <p class="intro-text"><em>Ruby on Rails and Javascript Developer</em></p>
-            <a href="#about" class="btn btn-circle page-scroll">
-              <i class="fa fa-angle-double-down animated"></i>
-            </a>
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-main-collapse"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top">
+            <i class="fa fa-play-circle"></i> <span class="light">Home</span>
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden"><a href="#page-top"></a></li>
+            <li><a class="page-scroll" href="#about">About</a></li>
+            <li><a class="page-scroll" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <img
+                id="avatar"
+                class="img-circle"
+                src="images/terminus.jpg"
+                alt="author photo"
+              />
+              <h1 class="brand-heading">John Lim</h1>
+              <p class="intro-text">
+                <em>Software Developer</em>
+              </p>
+              <a href="#about" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- About Section -->
-  <section id="about" class="container content-section text-center">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-        <h2>About Me</h2>
-        <p>
-          I'm a NYC-based Ruby and JavaScript web developer who loves coding.
-          My journey into computers began in the 8th grade, when I built my first
-          computer out of parts bought from newegg and ebay. After taking
-          Harvard's Intro to CS MOOC (taught by an absolute legend) I decided
-          to grok code more seriously and start building my own projects while
-          partaking in an immersive full-stack web developer course.
-        </p>
-        <p>
-          My passions outside of programming can be summed in two words: books and boots.
-          In 2014 I hiked the entire length of the Appalachian Trail: 2185 miles.
-          My all-time favorite novel? 100 Years of Solitude by Gabriel Garcia Marquez.
-        </p>
-        <p>
-          Check out some of my projects below:
-        </p>
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h2>About Me</h2>
+          <p>
+            Hi! I am a NYC-based software engineer with experience in F#,
+            JavaScript, Ruby, and Elixir. I am always ready to pick up new
+            languages and frameworks, but my primary focus as a developer is
+            creating a good user experience.
+          </p>
+          <p>
+            When I'm not busy grokking code I love to read books and go on
+            hiking trips. I'm an avid hiker, and in 2014 recorded a 2185 mile
+            hike of the Appalachian Trail.
+          </p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="projects" class="container content-section text-center">
-    <h1>Polylit</h1>
-    <p>A platform/publisher hybrid blog site in the style of Medium.</p>
-    <div class="row">
-      <div class="col-md-12">
-        <a href="http://polylit.net" target="_blank">
-          <img class="img-responsive" src="images/polylit.png" alt="A screenshot of the home page for Polylit." />
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="container content-section text-center">
-    <h1>Hexscape</h1>
-    <p>An addicting physics puzzle game written in HTML5 and Phaser.</p>
-    <div class="row">
-      <div class="col-md-12">
-        <a href="http://jolim24601.github.io/hexscape/" target="_blank">
-          <img class="img-responsive" src="images/hexscape.png" alt="A screenshot of the gameplay." />
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="container content-section text-center">
-    <h1>Mu</h1>
-    <p>A DSL for building traditional MVC apps in Ruby</p>
-    <div class="row">
-      <div class="col-md-12">
-        <a href="http://github.com/jolim24601/Mu" target="_blank">
-          <img class="img-responsive" src="images/mu.png" alt="A screenshot of source code written in the Atom text editor." />
-        </a>
-      </div>
-    </div>
-  </section>
-
-
-  <section id="skills" class="container content-section text-center">
-    <h1>Skills</h1>
-    <div class="row">
-      <div class="col-md-1">
-      </div>
-      <div class="col-md-2">
-        <img class="" src="images/ruby.png" alt="ruby logo">
-        <p>Ruby</p>
-      </div>
-      <div class="col-md-2">
-        <img class="" src="images/rails.png" alt="rails logo">
-        <p>Rails</p>
-      </div>
-      <div class="col-md-2">
-        <img class="" src="images/HTML5.png" alt="html5 logo">
-        <p>HTML5</p>
-      </div>
-      <div class="col-md-2">
-        <img class="" src="images/css.png" alt="css logo">
-        <p>CSS3</p>
-      </div>
-      <div class="col-md-2">
-        <img class="" src="images/javascript.png" alt="js logo">
-        <p>Javascript</p>
-      </div>
-      <div class="col-md-1">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-1">
-      </div>
-      <div class="col-md-2">
-        <img class="" src="images/react.png" alt="react logo">
-        <p>React</p>
-      </div>
-      <div class="col-md-2">
-        <img class="" src="images/redux.jpg" alt="redux logo">
-        <p>Redux</p>
-      </div>
-      <div class="col-md-2">
-        <img class="" src="images/jquery.png" alt="jquery logo">
-        <p>jQuery</p>
-      </div>
-      <div class="col-md-2">
-        <img class="" src="images/postgresql.png" alt="psql logo">
-        <p>PostgreSQL</p>
-      </div>
-      <div class="col-md-2">
-        <img class="" src="images/git.png" alt="git logo">
-        <p>Git</p>
-      </div>
-      <div class="col-md-1">
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Contact Section -->
-  <section id="contact" class="container content-section text-center">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-        <h2>Contact</h2>
-        <p><a href="mailto:jolim24601@gmail.com">jolim24601@gmail.com</a>
-        </p>
-        <ul class="list-inline banner-social-buttons">
-          <li>
-            <a href="https://github.com/jolim24601/"
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h2>Contact</h2>
+          <p><a href="mailto:jhlim331@gmail.com">jhlim331@gmail.com</a></p>
+          <ul class="list-inline banner-social-buttons">
+            <li>
+              <a
+                href="https://github.com/jolim24601/"
                 class="btn btn-default btn-lg"
-                >
-              <i class="fa fa-github fa-fw"></i>
-              <span class="network-name">Github</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/jlim5"
-               class="btn btn-default btn-lg"
-               >
-              <i class="fa fa-linkedin fa-fw"></i>
-              <span class="network-name">LinkedIn</span>
-            </a>
-          </li>
-          <li>
-            <a href="downloads/resume.pdf"
-               class="btn btn-default btn-lg"
-               >
-              <i class="fa fa-file-text fa-fw"></i>
-              <span class="network-name">Resume</span>
-            </a>
-          </li>
-        </ul>
+              >
+                <i class="fa fa-github fa-fw"></i>
+                <span class="network-name">Github</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jlim5"
+                class="btn btn-default btn-lg"
+              >
+                <i class="fa fa-linkedin fa-fw"></i>
+                <span class="network-name">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="downloads/resume.pdf" class="btn btn-default btn-lg">
+                <i class="fa fa-file-text fa-fw"></i>
+                <span class="network-name">Resume</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <div id="map"></div>
+    <footer>
+      <div class="container text-center">
+        <small>&copy; John Lim 2018</small>
+      </div>
+    </footer>
 
-  <footer>
-    <div class="container text-center">
-      <small>&copy; John Lim 2016</small>
-    </div>
-  </footer>
-
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALrN6g07XUzZw_fAA_L9BhCiwwQU_UkPA"></script>
-  <script src="js/grayscale.js"></script>
-</body>
-
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/grayscale.js"></script>
+  </body>
 </html>
